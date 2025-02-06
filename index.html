@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="./Bootstrap/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-1" id="cabeçalho">
+        <div class="container">
+            <img src="https://galinhaviajante.com.br/wp-content/uploads/2024/09/imagem_2024-09-25_151905738.png" class="logowar" alt="logo">
+            <button class="navbar-toggler">
+                <span class="navbar-toggler-icon" data-bs-toggle="collapse" data-bs-target="#menu-nav"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <!-- {propriedade} - {Breakpoint} - {Valor}  -->
+                    <li class="nav-item fw-bold">
+                        <a href="#sobreRS" class="nav-link">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre o Regimento
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#eventos" class="nav-link">
+                            <i class="bi bi-calendar-check me-1"></i>
+                            O que protegemos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#cardápio" class="nav-link">
+                            <i class="bi bi-card-text me-1"></i>
+                            Exercitos
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a href="#contato" class="nav-link">
+                            <i class="bi bi-chat-left-text me-1"></i>
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="#cabeçalho" data-bs-smooth-scroll="true">
+        <section id="sobreRS">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="https://www.gameplayscassi.com.br/ofertas/wp-content/uploads/2024/10/Warhammer-40000-Space-Marine-2.jpeg" alt="Ultramarine">
+                    </div>
+                    <div class="carousel-item h-50" data-bs-interval="3000">
+                        <img src="https://www.levelinfinite.com/wp-content/uploads/2024/02/Optimizing-the-Psyker-in-Warhammer-40000-Darktide-1.png" alt="psyker">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="https://darktide.gameslantern.com/images/sites/darktide/mission_terminal.jpg" alt="Central">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="https://c4.wallpaperflare.com/wallpaper/430/11/588/games-warhammer-40-000-dawn-of-war-wallpaper-preview.jpg" class="d-block w-100 rounded" alt="Foto do restaurante">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colorir">o regimento</span></h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ducimus odio aliquid quisquam dignissimos quasi cum facere rerum deserunt exercitationem aliquam illum at, laudantium, veritatis, inventore pariatur veniam laboriosam? Consequatur?</p>
+                            <h3 class="section-title">Sobre <span class="text-colorir">os Capítulos</span></h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae commodi esse nemo assumenda rerum? Temporibus, officia. Error aspernatur, voluptates illo aut ipsam minus sed nihil, necessitatibus amet, rem laboriosam eligendi?</p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">O que <span class="text-colorir">Protegemos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="https://i.redd.it/qtjzsuxc5nx61.png" class="d-block w-100 rounded mb-2" alt="niver">
+                        <h3 class="section-title text-colorir fs-4">
+                            <i class="bi bi-airplane-fill"></i>
+                            O Warp
+                        </h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet est dolorem necessitatibus impedit quam qui in molestiae incidunt tempore similique, aperiam assumenda repellat minima suscipit quisquam. Itaque maiores perferendis quas.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://i.ytimg.com/vi/Gs1UKr2gwXE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDkG9DOGKHSytaHml-4v0bOcH7xAw" class="d-block w-100 rounded mb-2" alt="casamento">
+                        <h3 class="section-title text-colorir fs-4">
+                            <i class="bi bi-person-wheelchair"></i>
+                            O Trono Dourado
+                        </h3>
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio quisquam harum similique nihil velit aut excepturi illum voluptatem quasi odit quaerat labore repellat quo nesciunt nam nostrum repellendus, reiciendis amet.
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2023/11/cadianbattle-cropped.jpg" class="d-block w-100 rounded mb-2" alt="festa">
+                        <h3 class="section-title text-colorir fs-4">
+                            <i class="bi bi-people-fill"></i>
+                            Planetas
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa delectus nobis quae quidem enim, exercitationem numquam consequuntur dicta nesciunt et magni explicabo corporis iusto impedit eaque, neque fugiat, iure in.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="cardápio" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Exer<span class="text-colorir">citos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-colum nav-cardapio">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Imperador" class="fw-bold text-start nav-link text-colorir active">Lado do Imperador</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#Caos" class="fw-bold text-start nav-link text-colorir">Lado do Caos</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content exercitos">
+                            <div class="tab-pane active" id="Imperador">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgadcEaapNejTN57A_9gtb_0b1zuAUX1NfValIT52iZLwr20ZbGUp2Y_OX0viiXqdT8UyV8biAbPAzDe1KTsFzGr8WbG_mfKxdjvO49lwoYPcZbUG0lAHeqi9jP1heyshvS-oIvRYC744/s1600/BattleSisterBulletinKeyEvents-Apr29-Header3jc.jpg" class="d-block w-100 rounded mb-2" alt="cervja icone">
+                                        <h5 class="fw-bold mt-2">Adeptas Soritas</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="https://www.wargamer.com/wp-content/sites/wargamer/2021/06/warhammer-40k-ultramarines-guide-captain-uriel-ventris.jpg" class="d-block w-100 rounded mb-2" alt="suco icone">
+                                        <h5 class="fw-bold mt-2">Ultramarines</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="https://i.ytimg.com/vi/3q6x_2B8_kk/maxresdefault.jpg" class="d-block w-100 rounded mb-2" alt="coca icone">
+                                        <h5 class="fw-bold mt-2">Adeptus Militarum</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="https://www.belloflostsouls.net/wp-content/uploads/2024/04/40k-grey-knights-terminator-header.jpg" class="d-block w-100 rounded mb-2" alt="coca icone">
+                                        <h5 class="fw-bold mt-2">Grey Knights</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="https://i.redd.it/449sxsykj85e1.jpeg" class="d-block w-100 rounded mb-2" alt="coca icone">
+                                        <h5 class="fw-bold mt-2">Sons of Sanguinius</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="https://www.belloflostsouls.net/wp-content/uploads/2016/10/salamanders.jpg" class="d-block w-100 rounded mb-2" alt="coca icone">
+                                        <h5 class="fw-bold mt-2">Salamanders</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="Caos">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/05/nurgle-Cropped.jpg" class="d-block w-100 rounded mb-2" alt="Cervja icone">
+                                        <h5 class="fw-bold mt-2">Nurgle</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2022/03/tw3-nkari-keeper-of-secrets.jpg" class="d-block w-100 rounded mb-2" alt="Vinho icone">
+                                        <h5 class="fw-bold mt-2">Slaanesh</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img src="https://media.moddb.com/images/groups/1/3/2055/chaosbridge.png" class="d-block w-100 rounded mb-2" alt="Vinho icone">
+                                        <h5 class="fw-bold mt-2">Heresy Legions</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>  
+                                    <div class="col-md-4">
+                                        <img src="https://www.wargamer.com/wp-content/sites/wargamer/2022/07/warhammer-40k-khorne.jpg" class="d-block w-100 rounded mb-2" alt="Vinho icone">
+                                        <h5 class="fw-bold mt-2">Khorne</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                        </p>
+                                    </div>                               
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colorir">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colorir">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colorir">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colorir">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colorir">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-hand-thumbs-up-fill text-colorir"></i>
+                                Redes <span class="text-colorir">sociais</span>
+                            </h3>
+                            <ul id="Redes">
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colorir"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colorir"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colorir"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4">
+                                <i class="bi bi-cursor-fill text-colorir"></i>
+                                Ende<span class="text-colorir">reço</span>
+                            </h3>
+                            <p>
+                                Rua teste exemplo nº442, Bairro Java São paulo - SP 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="./Bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+</html>
